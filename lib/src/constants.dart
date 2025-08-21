@@ -15,6 +15,7 @@ const String ar = 'ar';
 const String pt = 'pt';
 const String tr = 'tr';
 const String pl = 'pl';
+const String ru = ''ru';
 
 extension LocaleExtension on Locale {
   List<String> get months {
@@ -45,6 +46,8 @@ extension LocaleExtension on Locale {
         return trMonths;
       case pl:
         return plMonths;
+      case ru:
+        return ruMonths;
       default:
         return intMonths;
     }
@@ -251,3 +254,19 @@ const List<String> plMonths = [
   'Listopad',
   'Grudzień',
 ];
+
+const List<String> ruMonth = [
+  'Январь',
+  'Февраль',
+  'Март',
+  'Апрель',
+  'Май',
+  'Июнь',
+  'Июль',
+  'Август',
+  'Сентябрь',
+  'Октябрь',
+  'Ноябрь',
+  'Декабрь',
+];
+
