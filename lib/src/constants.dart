@@ -15,7 +15,7 @@ const String ar = 'ar';
 const String pt = 'pt';
 const String tr = 'tr';
 const String pl = 'pl';
-const String ru = ''ru';
+const String ru = 'ru';
 
 extension LocaleExtension on Locale {
   List<String> get months {
