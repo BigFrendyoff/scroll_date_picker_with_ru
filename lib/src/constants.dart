@@ -255,7 +255,7 @@ const List<String> plMonths = [
   'Grudzień',
 ];
 
-const List<String> ruMonth = [
+const List<String> ruMonths = [
   'Январь',
   'Февраль',
   'Март',
